@@ -15,8 +15,3 @@ TCP/8082
 
 ## Crypto Service
 TCP/8083
-
-<br>
-
-## Todos
-- Use ConfigMaps for env
