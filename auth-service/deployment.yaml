@@ -31,4 +31,3 @@ spec:
     app: auth-service
   ports:
   - port: 8081
-  type: NodePort

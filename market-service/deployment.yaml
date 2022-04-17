@@ -37,4 +37,3 @@ spec:
     app: market-service
   ports:
   - port: 8082
-  type: NodePort

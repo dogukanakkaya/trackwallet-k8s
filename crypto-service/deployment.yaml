@@ -31,4 +31,3 @@ spec:
     app: crypto-service
   ports:
   - port: 8083
-  type: NodePort
