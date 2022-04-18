@@ -15,3 +15,9 @@ TCP/8082
 
 ## Crypto Service
 TCP/8083
+
+<br>
+
+## Todos
+- Use Helm Charts
+- Create ingress for api-gateway?
