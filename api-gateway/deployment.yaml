@@ -13,7 +13,8 @@ spec:
     spec:
       containers:
       - name: api-gateway
-        image: dogukanakkaya/pyka-api-gateway
+        image: api-gateway
+        imagePullPolicy: Never
         resources:
           limits:
             memory: "512Mi"
