@@ -1,4 +1,5 @@
 ## API Gateway
+https://github.com/dogukanakkaya/pyka-api-gateway
 HTTP/8080
 
 <br>
@@ -15,9 +16,3 @@ TCP/8082
 
 ## Crypto Service
 TCP/8083
-
-<br>
-
-## Todos
-- Use Helm Charts
-- Create ingress for api-gateway?
