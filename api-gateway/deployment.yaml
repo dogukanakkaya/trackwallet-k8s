@@ -32,4 +32,4 @@ spec:
     app: api-gateway
   ports:
   - port: 8080
-  type: NodePort
+  type: LoadBalancer
