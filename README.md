@@ -1,4 +1,5 @@
 ## Minikube
+
 Start Minikube
 ```
 minikube start
@@ -13,7 +14,7 @@ minikube tunnel
 
 <br>
 
-Apply files
+Apply files (images must be exists in the minikube container)
 ```
-k apply -f redis.yaml -f market-service -f crypto-service -f auth-service -f api-gateway
+kubectl apply -f redis.yaml -f market-service -f crypto-service -f auth-service -f api-gateway
 ```
