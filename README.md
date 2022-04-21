@@ -16,5 +16,5 @@ minikube tunnel
 
 Apply files (images must be exists in the minikube container)
 ```
-kubectl apply -f redis.yaml -f market-service -f crypto-service -f auth-service -f api-gateway
+kubectl apply -f redis -f market-service -f crypto-service -f auth-service -f api-gateway
 ```
