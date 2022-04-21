@@ -20,6 +20,13 @@ spec:
             cpu: "200m"
         ports:
         - containerPort: 6379
+        volumeMounts:
+        - mountPath: /data
+          name: redis-pvs
+      volumes:
+        - name: redis-pvs
+          persistentVolumeClaim:
+            claimName: redis-pvc
 ---
 apiVersion: v1
 kind: Service
